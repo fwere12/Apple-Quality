@@ -1,0 +1,2 @@
+scores = cross_val_score(DummyClassifier(), X_train_poly, y_train, cv=5, scoring="accuracy")
+print(f'Mean accuracy: {np.mean(scores):.2f}')
