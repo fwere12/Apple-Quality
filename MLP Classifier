@@ -1,0 +1,5 @@
+scores = cross_val_score(MLPClassifier(max_iter=500, early_stopping=True), X_train_poly, y_train, cv=5, scoring="accuracy")
+print(f'Mean accuracy: {np.mean(scores):.2f}')
+
+
+#Mean accuracy: 0.88
