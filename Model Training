@@ -1,0 +1,12 @@
+Below the models I'm going to test on cross validation:
+Baseline
+DummyClassifier
+Linear
+SGDClassifier
+SVC
+Tree based
+ExtraTreesClassifier
+LGBMClassifier
+Neural Network
+MLPClassifier
+We will tune the hyperparameters on the one with the highest score. Finally we'll train it on the full X_train/y_train and test it on the X_test/y_test. If necessary we will regularize it.
